@@ -1,0 +1,110 @@
+*{
+  margin:0;
+  color: #000;
+  padding:0;
+  font-family:Century Gothic;
+}
+
+p,
+a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #000!important;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: none !important;
+  background-color: salmon !important;
+}
+
+header{
+  background:url(https://cdn.rswebsols.com/wp-content/uploads/2018/04/computer-desk-job-laptop-note-technology-work.jpg);
+  height:100vh;
+  background-size:cover;
+  background-position:center;
+  opacity:.8
+}
+ul{
+  list-style-type:none;
+  float:right;
+  margin-top:25px;
+}
+ul li{
+  display:inline-block;
+}
+ul li a{
+  text-decoration:none;
+  color:rgb(226, 100, 17);
+  padding:5px 20px;
+  border:1px solid transparent;
+  border-radius:10px 5px 10px 5px;
+  transition:0.9s ease;
+}
+ul li a:hover{
+  background-color:rgb(255,223,0);
+  color:rgb(114, 53, 114)
+}
+.logo img{
+  float:left;
+  width:60px;
+  height:auto;
+}
+.main{
+  max-width:1200px;
+  margin:auto;
+}
+ul li.active a{
+  background-color:rgb(255,223,0);
+  color:rgb(128,0,128)
+}
+.title{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%)
+  
+}
+.title h1{
+  color:rgb(255,223,0);
+  font-size: 40px;
+}
+.button{
+  position:absolute;
+  top:72%;
+  left:50%;
+  transform:translate(-50%,-50%)
+}
+.btn{
+  border:1px solid transparent;
+  padding:10px 30px;
+  background:rgb(31, 216, 14);
+  border-radius:10px 5px 10px 5px;
+  color:rgb(255,223,0);
+  text-decoration:none;
+  font-size:22px;
+  transition:0.9s ease;
+}
+.btn:hover{
+  background-color:rgb(255,223,0);
+  color:rgb(248, 79, 79);
+}
+.footer{
+  position:absolute;
+  top:92%;
+  left:43%;
+  color:rgb(255,223,0);
+  border:1px solid transparent;
+  background:transparent;
+  border-radius:10px 5px 1px 5px
+}
+.footer:hover{
+  background-color:rgb(255,223,0);
+  color:#000;
+  transition:0.9s ease;
+}
+.footer a{
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+  font-size:18px
+}
